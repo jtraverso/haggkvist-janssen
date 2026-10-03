@@ -12,10 +12,11 @@ Main theorem:
 ## Proof and attribution
 
 The theorem is due to Roland Häggkvist and Jeannette C. M. Janssen,
-*The list chromatic index of K_n and K_{n,n}*, Combinatorics, Probability and
+*New Bounds on the List-Chromatic Index of the Complete Graph and Other Simple
+Graphs*, Combinatorics, Probability and
 Computing 6 (1997), 295–313, [doi:10.1017/S0963548397002927](https://doi.org/10.1017/S0963548397002927).
-This repository covers the complete-graph case, not the bipartite theorem
-or the general list-edge-colouring conjecture.
+This repository covers the complete-graph bound, not the article's asymptotic
+bound for general simple graphs or the general list-edge-colouring conjecture.
 
 The proof is an alternative presentation, not a literal translation of the
 article's argument: a direct local-rank construction and uniqueness induction
