@@ -1,0 +1,17 @@
+name = "haggkvist-janssen"
+version = "0.1.0"
+defaultTargets = ["LeanPool"]
+requiresModuleSystem = true
+
+[leanOptions]
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "LeanPool"
+roots = ["LeanPool.ListEdgeColoringComplete.Imports"]
